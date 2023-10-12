@@ -1,0 +1,121 @@
+/* reset css menggunakan selector universal*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* tag a mengatur link*/
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navbar {
+    background-color: #417aa8;
+    height: 80px;
+    line-height: 80px;
+    width: 100%;
+}
+
+.container {
+    width: 80%; /* membuat lebar container 80% */
+    margin: auto; /* membuat container ditengah */
+    overflow: hidden; /* membersihkan float */
+}
+
+.navbar ul li {
+    float: left; /* li jadi float */
+    margin-right: 20px; /* mengatur jarak antar menu*/
+}
+
+.navbar ul li a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.navbar ul li a:hover {
+    background-color: #4b88bb;
+}
+
+/* content */
+.content {
+    display: table; /* Jadikan .content berperilaku seperti tabel*/
+    width: 80%;
+    margin: 20px auto; /* Margin atas dan bawah 20px, dan center the content */
+    color: #333; /* Warna text content.*/
+    height: 570px;
+}
+
+.content h1 {
+    margin-top: 0; /* Hapus margin top default */
+    font-size: 2em; /* Ukuran font h1*/
+}
+
+.content p {
+    font-size: 1em; /* Ukuran font p*/
+}
+
+/* footer */
+.footer {
+    background-color: #417aa8;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+/* content table */
+.content table {
+    border-collapse: collapse; /* Menghapus jarak antara border */
+}
+
+.content th, .content td {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+.content th {
+    background-color: #f2f2f2;
+}
+
+/* ...Kode CSS form... */
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+form input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+button {
+    background: blue;
+    color: white;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+
+form a {
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+/* ...End Kode CSS form... */
